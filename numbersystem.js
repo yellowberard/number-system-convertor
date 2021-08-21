@@ -10,6 +10,6 @@ while (num != 1) {
     num = num / 2;
 }
 ans[i] = (num % 2);
-for (an of ans) {
-    console.log(an);
+for (i = 0; i < 6; i++) {
+    console.log(ans[i]);
 }
