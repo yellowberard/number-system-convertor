@@ -1,8 +1,10 @@
 console.log("HI");
 const button = document.querySelector('.btn');
-const ma = document.querySelector('.nu');
+var num = document.getElementById("myNumber").value;
+
 const anss = document.querySelector('.ans');
 button.addEventListener('click', function (evt) {
-    let answer = ma.toString(2);
+
+    let answer = num.toString(2);
     anss.innerHTML = answer;
 });
