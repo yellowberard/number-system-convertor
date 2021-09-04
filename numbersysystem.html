@@ -12,10 +12,34 @@
 <body>
     <h1>Number system Convertor</h1>
 
-    <input type="number" id="myNumber" value="56">
+    <!-- <input type="number" id="myNumber" value>
     <button class="btn">ok</button>
 
-    <h3 class="ans">Answer</h3>
+    <h3 class="ans">Answer</h3> -->
+    <h3>A demonstration of how to access a Number field</h3>
+
+    <input type="number" id="myNumber" value="2">
+
+    <p>Click the button to get the number of the number field.</p>
+
+    <button onclick="myFunction()">Try it</button>
+    <button class="btn">ok</button>
+    <button onclick="testing()">Testing</button>
+
+    <p><strong>Note:</strong> input elements with type="number" are not supported in IE 9 and earlier versions.</p>
+
+    <p id="demo"></p>
+
+    <!-- <script>
+        function myFunction() {
+            var x = document.getElementById("myNumber").value;
+            // console.log(x);
+            let test = x;
+            let answer = (test >>> 0).toString(2);
+            document.getElementById("demo").innerHTML = answer;
+
+        }
+    </script> -->
     <script src="numbersystem.js"></script>
 </body>
 
